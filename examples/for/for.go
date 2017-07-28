@@ -14,11 +14,14 @@ func main() {
         i = i + 1
     }
 
+    fmt.Println()
+
     // A classic initial/condition/after `for` loop.
     for j := 7; j <= 9; j++ {
         fmt.Println(j)
     }
 
+    fmt.Println()
     // `for` without a condition will loop repeatedly
     // until you `break` out of the loop or `return` from
     // the enclosing function.
